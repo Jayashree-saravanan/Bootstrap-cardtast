@@ -1,0 +1,108 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .1rem;
+    background-image:linear-gradient(to right, #0062E6, #33AEFF);
+  
+  }
+  
+  
+  .App{
+    margin-top: 20px;
+    height: 650px;
+    width: 1400px;
+    display:flex;
+    align-items: center;
+   
+  
+  }
+  .card-body{
+    margin:10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 400px;
+    height:540px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body:hover{
+    margin-top: 1px;
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    color:rgb(158, 155, 155);
+
+  }
+  
+  h1{
+    display: flex;
+    justify-content: center;
+    font-size:smaller;
+    padding: 2px;
+  
+  }
+ 
+  .period{
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    padding-top: 35px;
+  }
+
+  .btn{
+    height:50px;
+    width:375px;
+    border:none;
+    border-radius: 25px;
+    background-color: rgb(111, 144, 249);
+    color:white;
+    font-size: medium;
+    text-transform: uppercase;
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  
+  }
+  
+  .btn:hover{
+    background-color: rgb(70, 125, 245);
+  
+  }
+  hr{
+    margin: 1.5rem 0;
+  }
+   .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+   .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  span{
+    margin-bottom: 1rem;
+  }
+  @media (min-width: 992px) {
+    .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+   .card:hover .btn {
+      opacity: 1;
+  }
+  }
+  .card:hover .btn {
+    opacity: 1;
+  }
